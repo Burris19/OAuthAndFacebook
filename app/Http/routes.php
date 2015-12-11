@@ -23,6 +23,13 @@ Route::get('facebook','AccountController@facebook_redirect');
 Route::get('account/facebook','AccountController@facebook');
 
 
+Route::get('twitter','AccountController@twitter_redirect');
+Route::get('account/twitter','AccountController@twitter');
+
+
+
+
+
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
