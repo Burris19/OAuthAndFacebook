@@ -17,7 +17,7 @@ return [
 	'facebook' => [
 		'client_id' => '1650515918570289',
 		'client_secret' => '25592a3557a1720949897683adb2fc9c',
-		'redirect' => '178.62.55.246/account/facebook',
+		'redirect' => 'http://178.62.55.246/account/facebook',
 	],
 
 	'mailgun' => [
