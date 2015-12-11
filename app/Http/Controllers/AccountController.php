@@ -17,5 +17,14 @@ class AccountController extends Controller {
 	}
 
 
+	public function twitter_redirect() {
+		return \Socialize::with('facebook')->redirect();
+	}
+
+	public function twitter() {
+		$user = \Socialize::with('facebook')->user();
+		dd($user);
+	}
+
 
 }

@@ -20,6 +20,12 @@ return [
 		'redirect' => 'http://178.62.55.246/account/facebook',
 	],
 
+	'twitter' => [
+		'client_id' => '1SJ7nICYndubV7WA8zJAh5CLd',
+		'client_secret' => '4eKzDTTyGCQMXN0fYpcpTfua5qWXftEQNW3cK44a4U9Vcaasqi',
+		'redirect' => '178.62.55.246/account/twitter',
+	],
+
 	'mailgun' => [
 		'domain' => '',
 		'secret' => '',
