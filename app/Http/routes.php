@@ -11,6 +11,18 @@
 |
 */
 
+//Route::get('prueba', function(){
+////	return "Listo para hacer el llamado";
+//	return \OAuth::authorize('facebook');
+//});
+//
+//Route::get('login','WelcomeController@index');
+
+
+Route::get('facebook','AccountController@facebook_redirect');
+Route::get('account/facebook','AccountController@facebook');
+
+
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');

@@ -1,5 +1,7 @@
 <?php namespace App\Http\Controllers;
 
+use AdamWathan\EloquentOAuth\Facades\OAuth;
+
 class WelcomeController extends Controller {
 
 	/*
@@ -31,6 +33,8 @@ class WelcomeController extends Controller {
 	public function index()
 	{
 		return view('welcome');
+//		OAuth::login('facebook');
+//		dd(Auth::user());
 	}
 
 }

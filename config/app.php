@@ -147,6 +147,7 @@ return [
 
 
 		'AdamWathan\EloquentOAuthL5\EloquentOAuthServiceProvider',
+		'Laravel\Socialite\SocialiteServiceProvider',
 
 	],
 
@@ -201,6 +202,7 @@ return [
 		 */
 
 		'OAuth' => 'AdamWathan\EloquentOAuth\Facades\OAuth',
+		'Socialize' => 'Laravel\Socialite\Facades\Socialite',
 
 	],
 
